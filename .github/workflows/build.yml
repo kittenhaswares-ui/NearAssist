@@ -33,7 +33,7 @@ jobs:
         run: dotnet build .\NearAssist\NearAssist.csproj --configuration Release --no-restore -p:Platform=x64
 
       - name: Upload ready-to-test plugin
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: NearAssist
           path: .\NearAssist\bin\x64\Release\NearAssist\*

@@ -1,0 +1,41 @@
+name: Build Near Assist
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install .NET 10
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Download Dalamud development files
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/latest.zip -OutFile latest.zip
+          Expand-Archive -Force latest.zip "$env:AppData\XIVLauncher\addon\Hooks\dev"
+
+      - name: Restore locked dependencies
+        run: dotnet restore .\NearAssist\NearAssist.csproj --locked-mode -p:Platform=x64
+
+      - name: Build Release
+        run: dotnet build .\NearAssist\NearAssist.csproj --configuration Release --no-restore -p:Platform=x64
+
+      - name: Upload ready-to-test plugin
+        uses: actions/upload-artifact@v4
+        with:
+          name: NearAssist
+          path: .\NearAssist\bin\x64\Release\NearAssist\*
+          if-no-files-found: error
+          retention-days: 14

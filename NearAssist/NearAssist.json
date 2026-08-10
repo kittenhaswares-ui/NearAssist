@@ -1,0 +1,9 @@
+{
+  "Author": "kittenhaswares-ui",
+  "Name": "Near Assist",
+  "Punchline": "Assistiert mit einem Tastendruck dem nächsten brauchbaren Ally.",
+  "Description": "Der Befehl /nearassist sucht einmalig den nächsten lebenden Party-/Alliance-Mitspieler mit einem gültigen Ziel und übernimmt dessen Ziel. Für Hotbar-Makros geeignet; keine dauerhafte Automatik, keine Hooks und keine Fähigkeit wird vom Plugin ausgelöst.",
+  "RepoUrl": "https://github.com/kittenhaswares-ui/NearAssist",
+  "ApplicableVersion": "any",
+  "Tags": ["targeting", "assist", "party", "pvp"]
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0.1 - 2026-08-10
+
+- PvP-Makrobeispiel auf `/pvpac` und `pvpaction` korrigiert
+
 ## 0.1.0.0 - 2026-08-10
 
 - `/nearassist` für Party- und Alliance-Assist hinzugefügt

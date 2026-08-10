@@ -11,12 +11,12 @@ Es gibt keine dauerhafte Verfolgung, keine automatisch ausgelöste Fähigkeit, k
 Beispiel für BRD:
 
 ```text
-/micon "Burst Shot"
+/micon "Powerful Shot" pvpaction
 /nearassist
-/ac "Burst Shot" <t>
+/pvpac "Powerful Shot" <t>
 ```
 
-Für einen anderen Skill ersetzt du lediglich `Burst Shot` durch den exakten Namen der Fähigkeit. Standardmäßig löscht `/nearassist` bei einem Fehlschlag das alte Ziel, damit die folgende Makrozeile nicht versehentlich auf ein veraltetes Ziel feuert.
+Für einen anderen PvP-Skill ersetzt du lediglich `Powerful Shot` durch den exakten Namen der Fähigkeit. PvP-Aktionen brauchen `/pvpac`; das normale `/ac` funktioniert dafür nicht. Standardmäßig löscht `/nearassist` bei einem Fehlschlag das alte Ziel, damit die folgende Makrozeile nicht versehentlich auf ein veraltetes Ziel feuert.
 
 Wichtig: FFXIV-Aktionsmakros besitzen nicht dieselbe native Action Queue wie normale Hotbar-Skills. Wenn dir die Queue wichtiger ist, lege nur `/nearassist` auf eine eigene Taste und drücke danach den unveränderten Skill.
 

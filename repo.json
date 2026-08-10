@@ -5,10 +5,10 @@
     "Punchline": "Assistiert mit einem Tastendruck dem nächsten brauchbaren Ally.",
     "Description": "Der Befehl /nearassist sucht einmalig den nächsten lebenden Party-/Alliance-Mitspieler mit einem gültigen Ziel und übernimmt dessen Ziel. Für Hotbar-Makros geeignet; keine dauerhafte Automatik, keine Hooks und keine Fähigkeit wird vom Plugin ausgelöst.",
     "InternalName": "NearAssist",
-    "AssemblyVersion": "0.1.0.0",
-    "TestingAssemblyVersion": "0.1.0.0",
-    "Changelog": "Erste Version: makrofähiger nearest-ally Assist für Party und Alliance, fail-closed Zielwahl und robuste PvP-Gegnererkennung.",
-    "TestingChangelog": "Erste Version: makrofähiger nearest-ally Assist für Party und Alliance, fail-closed Zielwahl und robuste PvP-Gegnererkennung.",
+    "AssemblyVersion": "0.1.0.1",
+    "TestingAssemblyVersion": "0.1.0.1",
+    "Changelog": "Korrigiert das PvP-Makrobeispiel auf /pvpac und die pvpaction-Icon-Kategorie.",
+    "TestingChangelog": "Korrigiert das PvP-Makrobeispiel auf /pvpac und die pvpaction-Icon-Kategorie.",
     "RepoUrl": "https://github.com/kittenhaswares-ui/NearAssist",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -24,6 +24,6 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/kittenhaswares-ui/NearAssist/main/dist/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/kittenhaswares-ui/NearAssist/main/dist/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/kittenhaswares-ui/NearAssist/main/dist/latest.zip",
-    "LastUpdate": "1786344849"
+    "LastUpdate": "1786345481"
   }
 ]

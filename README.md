@@ -1,5 +1,10 @@
 # Near Assist
 
+> [!IMPORTANT]
+> **DEPRECATED / MOVED:** Near Assist ist ab **Seiton Sense 0.5** direkt in Seiton Sense integriert und wird nicht mehr als eigenständiges Plugin weiterentwickelt. Verwende das Seiton-Sense-Custom-Repository: `https://raw.githubusercontent.com/kittenhaswares-ui/SeitonSense/main/repo.json`
+>
+> Die letzte eigenständige Near-Assist-Version bleibt hier unverändert als Rollback erhalten.
+
 Ein kleines Dalamud-Plugin für einen manuellen, makrofähigen **Assist auf den nächsten brauchbaren Ally**.
 
 `/nearassist` sucht genau einmal den nächsten lebenden Party-/Alliance-Mitspieler innerhalb der eingestellten Reichweite, dessen aktuelles hartes Kampfziel gültig, lebend, targetbar und kein anderer Ally ist. Anschließend wird dieses Ziel zu deinem normalen Ziel.

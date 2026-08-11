@@ -3,12 +3,12 @@
     "Author": "kittenhaswares-ui",
     "Name": "Near Assist",
     "Punchline": "Assistiert mit einem Tastendruck dem nächsten brauchbaren Ally.",
-    "Description": "Der Befehl /nearassist sucht einmalig den nächsten lebenden Party-/Alliance-Mitspieler mit einem gültigen Ziel und übernimmt dessen Ziel. Für Hotbar-Makros geeignet; keine dauerhafte Automatik, keine Hooks und keine Fähigkeit wird vom Plugin ausgelöst.",
+    "Description": "DEPRECATED: Near Assist ist ab Version 0.5 in Seiton Sense integriert. Dieses eigenständige Paket bleibt nur als Rollback erhalten. Seiton Sense: https://raw.githubusercontent.com/kittenhaswares-ui/SeitonSense/main/repo.json",
     "InternalName": "NearAssist",
     "AssemblyVersion": "0.1.0.1",
     "TestingAssemblyVersion": "0.1.0.1",
-    "Changelog": "Korrigiert das PvP-Makrobeispiel auf /pvpac und die pvpaction-Icon-Kategorie.",
-    "TestingChangelog": "Korrigiert das PvP-Makrobeispiel auf /pvpac und die pvpaction-Icon-Kategorie.",
+    "Changelog": "Eigenständiges Plugin eingestellt: Near Assist ist jetzt in Seiton Sense 0.5 integriert. Das bestehende Paket bleibt unverändert als Rollback verfügbar.",
+    "TestingChangelog": "Eigenständiges Plugin eingestellt: Near Assist ist jetzt in Seiton Sense 0.5 integriert. Das bestehende Paket bleibt unverändert als Rollback verfügbar.",
     "RepoUrl": "https://github.com/kittenhaswares-ui/NearAssist",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -19,11 +19,11 @@
       "party",
       "pvp"
     ],
-    "IsHide": false,
+    "IsHide": true,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/kittenhaswares-ui/NearAssist/main/dist/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/kittenhaswares-ui/NearAssist/main/dist/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/kittenhaswares-ui/NearAssist/main/dist/latest.zip",
-    "LastUpdate": "1786345481"
+    "LastUpdate": "1786488937"
   }
 ]
